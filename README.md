@@ -23,3 +23,4 @@ Finally, I was looping through the frames in the video stream and recording the 
 The current implementation is sensitive to the lighting and can recognize well-lit objects. Future implementations can be optimized for the memory and execution time - by parallelizing the loop. Also, for a more sophisticated model, I am planning to implement shape-based object recognition, which will be less sensitive to initial setting of the camera. 
 
 All the written modules were combined into the Sport_Camera_Modules file.
+The notebook with the solution demonstration is named Sport Camera task.
