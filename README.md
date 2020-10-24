@@ -2,13 +2,13 @@
 
 The goal of this test task is to track the score of a tennis game. We are given a set of video streams depicting a tennis court, in the middle of the frame we see the referee chair, to both sides of which there are red and white balls attached. Red balls correspond to sets, whereas the white ones - to individual scores. 
 
-![alt text](imgs/tennis_score_image.png =250x250)
+![alt text](imgs/tennis_score_image.png | width=100)
 
 The task was performed with utilizing the OpenCV library in python. 
 The solution went as following. 
 First, there were image pre-processing performed. I began with a basic EDA to see the distribution of pixels in the image in different colorschemes, the later is important for masking. I based the object recognition on the colors. First, it was easy to detect the red objects because of the contrast. 
 
-![alt text](imgs/red.png =250x250)
+![alt text](imgs/red.png)
 
 So I first segregated those from the image to then detect the white ones. The latter was more tricky, but I found a good way to do it with the use of the edgePreservingFilter that detected the difference between the background and contrasting cold white. 
 
