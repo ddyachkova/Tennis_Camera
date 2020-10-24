@@ -2,7 +2,7 @@
 
 The goal of this test task is to track the score of a tennis game. We are given a set of video streams depicting a tennis court, in the middle of the frame we see the referee chair, to both sides of which there are red and white balls attached. Red balls correspond to sets, whereas the white ones - to individual scores. 
 
-![alt text](https://github.com/ddyachkova/Tennis_Camera/tree/main/imgs/tennis_score_image.png)
+![alt text](imgs/tennis_score_image.png)
 
 The task was performed with utilizing the OpenCV library in python. 
 The solution went as following. 
